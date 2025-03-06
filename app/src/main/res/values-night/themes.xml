@@ -12,7 +12,7 @@
         <!-- Status bar color. -->
         <item name="android:windowContentOverlay">@null</item>
 
-        <item name="android:statusBarColor">@color/custom_red</item>
+        <item name="android:statusBarColor">@color/black</item>
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
         <!-- Customize your theme here. -->
     </style>

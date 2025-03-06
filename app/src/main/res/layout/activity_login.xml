@@ -7,27 +7,41 @@
     android:padding="16dp"
     android:gravity="center">
 
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_urbanpoint_logo"
+        android:layout_marginBottom="50dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Urban Point Logo"/>
+
     <EditText
         android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
+        android:hint="Phone"
+        android:inputType="phone"
         android:padding="12dp"
+        android:maxLength="11"
         android:background="@drawable/edit_text_background"
         android:layout_marginBottom="16dp"/>
 
     <EditText
+        android:layout_marginTop="10dp"
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:hint="Pin"
         android:inputType="textPassword"
         android:padding="12dp"
+        android:maxLength="4"
         android:background="@drawable/edit_text_background"
         android:layout_marginBottom="24dp"/>
 
     <Button
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="20dp"
         android:id="@+id/buttonLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
